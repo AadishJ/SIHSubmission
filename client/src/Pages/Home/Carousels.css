@@ -1,0 +1,29 @@
+/* RevolvingStrip.css */
+.revolving-strip {
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  z-index: 1000; /* Ensure it appears above other content */
+}
+
+.strip-content {
+  display: inline-block;
+  padding: 10px;
+  color: #fff;
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+  white-space: nowrap;
+  animation: revolve 20s linear infinite; /* Adjust timing as needed */
+}
+
+@keyframes revolve {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}

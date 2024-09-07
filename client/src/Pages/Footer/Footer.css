@@ -1,0 +1,101 @@
+/* Randomized class names */
+.container-Xz34Q {
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.photoo {
+  position: relative;
+  bottom: 0;
+  z-index: -1;
+}
+
+.upper-half-Xz34Q {
+  flex: 1;
+  background-color: #F0F2EA;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #333;
+  padding: 20px;
+}
+
+.bottom-half-Yh5Ln {
+  flex: 1;
+  background: url('../../Assets/Mask.png') no-repeat center center; /* Set the background image */
+  background-size: cover; /* Ensure the image covers the whole element */
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 20px 40px;
+  color: white;
+  flex-wrap: wrap;
+}
+
+.left-side-Hg8Rs {
+  flex: 1;
+  max-width: 50%;
+  padding: 10px;
+}
+
+.left-side-h1-Hg8Rs {
+  margin: 0 0 20px;
+  font-size: 2rem;
+}
+
+.left-side-p-Hg8Rs {
+  margin: 5px 0;
+  font-size: 1rem;
+}
+
+.newsletter-Tk9Mm {
+  display: flex;
+  margin-top: 10px;
+  flex-wrap: wrap;
+}
+
+.text-field-Kp2Jd {
+  padding: 10px;
+  width: 200px;
+  border-radius: 5px;
+  border: none;
+  margin-right: 10px;
+}
+
+.subscribe-btn-Uj7Fb {
+  padding: 10px 20px;
+  background-color: #ff6347;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.right-side-Ap9Qb {
+  flex: 1;
+  max-width: 50%;
+  padding: 10px;
+}
+
+.right-side-p-Ap9Qb {
+  margin: 5px 0;
+  font-size: 1rem;
+}
+
+.links-Zf3Gl {
+  margin-top: 15px;
+}
+
+.toll-free-info-Fd5Lm {
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
+.links-p-Zf3Gl {
+  margin: 5px 0;
+  font-size: 0.9rem;
+}
+
+/* Responsive styles omitted for brevity */

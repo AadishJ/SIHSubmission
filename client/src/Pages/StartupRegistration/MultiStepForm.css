@@ -1,0 +1,76 @@
+/* MultiStepForm.css */
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.cards {
+  border: 1px solid #e0f2f1; /* Light green border */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #f1f8f7; /* Light green background */
+  padding: 20px; /* Ensure padding is applied to cover form */
+  height: 110vh;
+}
+
+.card-body {
+  padding: 20px;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #004d40; /* Darker green for headings */
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #00796b; /* Darker green for labels */
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #b2dfdb; /* Light green border */
+  border-radius: 4px;
+  background-color: #ffffff; /* White background for inputs */
+}
+
+.btn {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  color: #ffffff;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.btn-primary {
+  background-color: #4caf50; /* Light green button */
+}
+
+.btn-secondary {
+  background-color: #a5d6a7; /* Lighter green button */
+}
+
+.btn-success {
+  background-color: #66bb6a; /* Medium green button */
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
+
+.mt-3 {
+  margin-top: 20px;
+}

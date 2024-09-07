@@ -1,0 +1,36 @@
+/* StepOne.css */
+
+.form-label {
+    font-weight: bold;
+    color: #00796b; /* Darker green for labels */
+  }
+  
+  .form-control,
+  .form-select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #b2dfdb; /* Light green border */
+    border-radius: 4px;
+    background-color: #ffffff; /* White background for inputs and selects */
+    box-sizing: border-box; /* Ensure padding and border are included in width */
+  }
+  
+  .btn-primary {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    background-color: #4caf50; /* Light green button */
+    color: #ffffff;
+    font-weight: bold;
+    cursor: pointer;
+    box-sizing: border-box; /* Ensure padding is included in width */
+  }
+  
+  .btn-primary:hover {
+    opacity: 0.9;
+  }
+  
+  .mb-3 {
+    margin-bottom: 15px;
+  }
+  

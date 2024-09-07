@@ -1,0 +1,26 @@
+/* Card.css */
+.card {
+    border: 1px solid #FF9800; /* Orange border for the outline */
+    border-radius: 8px; /* Rounded corners */
+    padding: 16px;
+    max-width: 250px;
+    min-height: 250px;
+    min-height: 25vh;
+    max-height: 35vh; /* Minimum height of 10% of the viewport height */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    background-color: #F0F2EA; /* Light background color */
+    margin: 10px;
+    margin-bottom: 20px;
+}
+
+.card-header {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 12px;
+    color: #525151; /* Darker text color for contrast */
+}
+
+.card-info {
+    font-size: 16px;
+    color: #525151; /* Text color */
+}
