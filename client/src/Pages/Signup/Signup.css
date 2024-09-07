@@ -54,7 +54,6 @@
 
 .form-input:focus {
     outline: none;
-    ring: 2px solid #40A578;
     border-color: #40A578;
 }
 
