@@ -5,7 +5,7 @@ function Footer() {
     <div className="container-Xz34Q">
       <div className="bottom-half-Yh5Ln">
         <div className="left-side-Hg8Rs">
-          <h1 className="left-side-h1-Hg8Rs">Ayush Startup Challenge</h1>
+          <h1 className="left-side-h1-Hg8Rs">Ayush-Veda</h1>
           <br />
           <div className="links-Zf3Gl">
             <p className="links-p-Zf3Gl">Blogs</p>
