@@ -5,6 +5,9 @@
     align-items: center;
     padding: 20px;
   }
+  .texty{
+    color:green;
+  }
   .overall
   {
     background-color: #000000;

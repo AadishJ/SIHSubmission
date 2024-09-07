@@ -13,10 +13,10 @@ function HomSec1 ()
               -Veda
               </h1>
         </div>
-            <div id='texty'>
-            <p>For startups & innovators redefining </p>
-            <p>the Ayush sector leveraging new</p>
-              <p>technologies</p>
+            <div>
+            <p style={ { color: "green",fontSize:"24px",fontWeight:"700"  }}>For startups & innovators redefining </p>
+            <p style={ { color: "green",fontSize:"24px",fontWeight:"700" }}>the Ayush sector leveraging new</p>
+              <p style={ { color: "green",fontSize:"24px",fontWeight:"700" }}>technologies</p>
             </div>
             </div>
           <div className="right-half">

@@ -8,7 +8,6 @@ async function handleRegisterGetRequest ( req, res )
 async function handleRegisterPostRequest ( req, res )
 {
     const p = req.body;
-    console.log(p);
 }
 
 module.exports = {
