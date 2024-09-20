@@ -2,7 +2,8 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import './Navbar.css';
 
-function Navbar({ language, changeLanguage }) {
+function Navbar ( { language, changeLanguage } )
+{
   // Text for English
   const englishText = {
     startup: 'Startup',
@@ -27,8 +28,9 @@ function Navbar({ language, changeLanguage }) {
   const text = language === 'en' ? englishText : hindiText;
 
   // Handle language change
-  const handleLanguageChange = (e) => {
-    changeLanguage(e.target.value);
+  const handleLanguageChange = ( e ) =>
+  {
+    changeLanguage( e.target.value );
   };
 
   return (
@@ -38,18 +40,27 @@ function Navbar({ language, changeLanguage }) {
           <Link to="/">Ayush-Veda</Link>
         </div>
         <div className="nav-right">
-          <Link to="/startup">{text.startup}</Link>
-          <Link to="/investors">{text.investors}</Link>
-          <Link to="/mentorship">{text.mentorship}</Link>
-          <Link to="/events">{text.events}</Link>
-          <Link className="signup" to="/signup">{text.signup}</Link>
-          <Link className="login" to="/login">{text.login}</Link>
+          <Link to="/startup">{ text.startup }</Link>
+          <Link to="/investors">{ text.investors }</Link>
+          <Link to="/mentorship">{ text.mentorship }</Link>
+          <Link to="/events">{ text.events }</Link>
+          <Link className="signup" to="/signup">{ text.signup }</Link>
+          <Link className="login" to="/login">{ text.login }</Link>
 
-          {/* Language selector - Dropdown */}
+          {/* Language selector - Dropdown */ }
           <div className="language-selector">
-            <select onChange={handleLanguageChange} value={language}>
+            <select onChange={ handleLanguageChange } value={ language }>
               <option value="en">English</option>
               <option value="hi">Hindi</option>
+              <option value="bn">Bengali</option>
+              <option value="te">Telugu</option>
+              <option value="mr">Marathi</option>
+              <option value="ta">Tamil</option>
+              <option value="gu">Gujarati</option>
+              <option value="kn">Kannada</option>
+              <option value="ml">Malayalam</option>
+              <option value="pa">Punjabi</option>
+              <option value="or">Odia</option>
             </select>
           </div>
         </div>

@@ -18,7 +18,7 @@ function HomeSec3 ()
             />
             <Card
                 header="Policies"
-                info="Government Policies"
+                info="Government Policies and Law Regulations"
             />
             <Card
                 header="Events"
