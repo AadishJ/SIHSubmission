@@ -17,6 +17,7 @@ body {
   align-items: center;
   border-bottom: 4px solid #ff9800;
 }
+
 .nav-left a {
   color: white;
   font-size: 24px;
@@ -26,7 +27,8 @@ body {
 }
 
 /* Language Selector Styles */
-.language-selector select {
+.language-selector select,
+.dropdown-button {
   background-color: #40a578; /* Match the navbar background */
   color: white; /* White text */
   font-size: 18px;
@@ -36,13 +38,17 @@ body {
   outline: none; /* Remove default outline */
   margin-left: 30px; /* Spacing from other elements */
   cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 
-.language-selector select:hover {
+/* Hover effect for buttons */
+.language-selector select:hover,
+.dropdown-button:hover {
   background-color: #ff9800; /* Change background on hover */
 }
 
-.language-selector select:focus {
+.language-selector select:focus,
+.dropdown-button:focus {
   border: 2px solid #ff9800; /* Focus border color */
 }
 
@@ -74,6 +80,48 @@ body {
   text-decoration: underline;
 }
 
+/* Dropdown Styles (Login & Sign Up) */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown menu */
+.dropdown-menu {
+  display: none; /* Hidden by default */
+  position: absolute;
+  background-color: #ff9800; /* Yellow background for the dropdown */
+  min-width: 200px;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2); /* Drop shadow */
+  z-index: 1;
+  border-radius: 5px;
+  overflow: hidden; /* Prevent overflow */
+  top: 50px; /* Adjust positioning below the button */
+  left: 0; /* Align the menu with the button */
+}
+
+/* Show dropdown on button click */
+.dropdown.open .dropdown-menu {
+  display: block; /* Show dropdown when dropdown is open */
+}
+
+/* Dropdown menu items */
+.dropdown-menu a {
+  color: white; /* White text color */
+  padding: 12px;
+  text-decoration: none;
+  display: block;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+/* Hover effect for dropdown items */
+.dropdown-menu a:hover {
+  background-color: #007bff; /* Blue background on hover */
+  color: white; /* Keep text white on hover */
+}
+
+/* Main content area */
 .main-content {
   display: flex;
   height: calc(100vh - 80px); /* Full height minus navbar height */
@@ -113,4 +161,27 @@ body {
   color: #545454;
   text-align: left;
   margin-top: 0; /* Remove top margin */
+}
+
+.language-selector select {
+  background-color: #40a578; /* Match the navbar background */
+  color: white; /* White text */
+  font-size: 18px;
+  padding: 10px 15px; /* Add some padding */
+  border: none;
+  border-radius: 5px; /* Smooth rounded corners */
+  outline: none; /* Remove default outline */
+  margin-left: 30px; /* Spacing from other elements */
+  cursor: pointer;
+  appearance: none; /* Remove default dropdown arrow */
+  width: 150px; /* Set a fixed width for the dropdown */
+}
+
+/* Optional: Additional styling to keep the dropdown look clean */
+.language-selector {
+  position: relative; /* Allows for positioning adjustments */
+}
+
+.language-selector select::after {
+  display: none; /* Ensure no custom arrow is displayed */
 }
